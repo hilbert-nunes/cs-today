@@ -29,6 +29,11 @@ With the database running and inside the './' directory, run the backend:
 ```
 node index.js
 ```
+Now the frontend:
+
+```
+yarn start
+```
 
 To populate the database use the HTTP routes or create an Admin user(using Insomnia/Postman). OR get CRUD access in '/login' frontend route.
 To revoge Admin status clean localStorage. 
