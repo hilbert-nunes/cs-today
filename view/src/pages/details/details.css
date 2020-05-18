@@ -1,0 +1,86 @@
+.curso-info {
+  padding: 20px;
+  background: white;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.curso-info h1 {
+  padding: 10px 20px;
+  font-size: 3em;
+  color: #777;
+  line-height: 24px;
+  margin-top: 5px;
+}
+
+.curso-info h2 {
+  padding: 10px 20px;
+  color: #9450f4;
+  line-height: 24px;
+  margin-top: 5px;
+}
+
+.card {
+  margin-right: 10px;
+  margin-top: 10px;
+  min-width: 140px;
+}
+
+#descricao {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+#main-info {
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+
+#details-nome {
+  font-size: 3em;
+  line-height: 1.3em;
+  font-weight: bold;
+}
+
+#section-container {
+  margin: 30px 30px 30px 20px;
+}
+
+#section-container article {
+  line-height: 2em;
+}
+
+#media-salarial {
+  font-size: 1.8em;
+  margin-left: 10px;
+  padding-bottom: 40px;
+}
+
+.media-salarial-card {
+  margin-left: 19px;
+}
+
+#h2-info-modal {
+  padding-top: 5px;
+}
+
+.btn-info-modal {
+  width: 70px;
+}
+
+#occupation-info {
+  line-height: 1.6em
+}
+
+#occupation-container {
+  margin-left: 20px;
+}
+
+#occupation-container h3 {
+  font-size: 1.5em;
+  padding: 20px 0;
+}
+
+#occupation-container p {
+  padding-bottom: 60px;
+}

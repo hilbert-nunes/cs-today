@@ -1,0 +1,39 @@
+#main {
+  max-width: 100%;
+  height: 80px;
+  background: #333;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#link {
+  color: red;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav {
+  width: 960px;
+}
+
+#anchor-header {
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+
+#anchor-header div strong {
+  color: #fff;
+}
+
+#anchor-header div {
+  color: #fff;
+}
+
+#anchor-header:hover {}

@@ -1,0 +1,317 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2020-05-11T21:11:38.978Z",
+  "__export_source": "insomnia.desktop.app:v7.1.1",
+  "resources": [
+    {
+      "_id": "req_f569269f9cd74e54ac56d57847264273",
+      "authentication": {},
+      "body": {},
+      "created": 1587938212049,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1587535148076.5,
+      "method": "GET",
+      "modified": 1587938237294,
+      "name": "Mostrar Cursos",
+      "parameters": [],
+      "parentId": "fld_13c6bcf7106649658bd691c9093fc750",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/cursos",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_13c6bcf7106649658bd691c9093fc750",
+      "created": 1587938193569,
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1587938193569,
+      "modified": 1587938193569,
+      "name": "Cursos",
+      "parentId": "wrk_203f35c3f4ad4572b987a0c646510e5a",
+      "_type": "request_group"
+    },
+    {
+      "_id": "wrk_203f35c3f4ad4572b987a0c646510e5a",
+      "created": 1587535114472,
+      "description": "",
+      "modified": 1587938159479,
+      "name": "CStoday",
+      "parentId": null,
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_1f4fb1e0917641688fae608f183d1d88",
+      "authentication": {},
+      "body": {},
+      "created": 1587938253512,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1587535148026.5,
+      "method": "GET",
+      "modified": 1588017979664,
+      "name": "Mostrar Curso",
+      "parameters": [],
+      "parentId": "fld_13c6bcf7106649658bd691c9093fc750",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/cursos/5ea6e2e8d8dbc99a3df894c7",
+      "_type": "request"
+    },
+    {
+      "_id": "req_9887f3d7806f4803b74857e55ea55397",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"mediaSal\": {\n    \"intern\": 900,\n    \"traineer\": 1500,\n    \"junior\": 2000,\n    \"pleno\": 4000,\n    \"senior\": 6000,\n    \"master\": 8000\n  },\n  \"_id\": \"5ea6e2e8d8dbc99a3df894c7\",\n  \"nome\": \"Ciência da Computação\",\n  \"description\": \"O profissional formado em Ciência da Computação atua basicamente na elaboração de programas de informática\",\n  \"mainInfo\": \"Nesse pull request, 2o último pull request desse SCRUM causou a race condition no parse retroativo do DOM2.\",\n  \"psInfo\": \"Fala pro cliente que a 2disposição dos elementos HTML causou a race condition na compilação de templates li2terais.\",\n  \"occupationArea\": \"Dado o fluxo de dados atual, a compilação final do programa com2plexificou o merge de uma configuração W2ebpack eficiente nos builds.\",\n  \"createAt\": \"2020-04-27T13:49:28.037Z\",\n  \"__v\": 0\n}"
+      },
+      "created": 1587938289697,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_758b12a86ac24ee3af28db285fb5d077",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1587535147976.5,
+      "method": "POST",
+      "modified": 1588018548635,
+      "name": "Insert Curso",
+      "parameters": [],
+      "parentId": "fld_13c6bcf7106649658bd691c9093fc750",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/cursos",
+      "_type": "request"
+    },
+    {
+      "_id": "req_83ad342023954ffc92f943d8cbfffcb6",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"mediaSal\": {\n    \"intern\": 900,\n    \"traineer\": 1500,\n    \"junior\": 2000,\n    \"pleno\": 4000,\n    \"senior\": 6000,\n    \"master\": 8000\n  },\n  \"_id\": \"5ea6e2e8d8dbc99a3df894c7\",\n  \"nome\": \"Ciência da Computação\",\n  \"description\": \"O profissional formado em Ciência da Computação atua basicamente na elaboração de programas de informática\",\n  \"mainInfo\": \"Nesse pull request, 2o último pull request desse SCRUM causou a race condition no parse retroativo do DOM2.\",\n  \"psInfo\": \"Fala pro cliente que a 2disposição dos elementos HTML causou a race condition na compilação de templates li2terais.\",\n  \"occupationArea\": \"Dado o fluxo de dados atual, a compilação final do programa com2plexificou o merge de uma configuração W2ebpack eficiente nos builds.\",\n  \"createAt\": \"2020-04-27T13:49:28.037Z\",\n  \"__v\": 0\n}"
+      },
+      "created": 1588017604387,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_758b12a86ac24ee3af28db285fb5d077",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1587535147964,
+      "method": "POST",
+      "modified": 1588018444166,
+      "name": "Insert Curso Save",
+      "parameters": [],
+      "parentId": "fld_13c6bcf7106649658bd691c9093fc750",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/cursos",
+      "_type": "request"
+    },
+    {
+      "_id": "req_6967f6a076ef4b128d3fa5379f22b78d",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"mediaSal\": {\n    \"intern\": 900,\n    \"traineer\": 1500,\n    \"junior\": 2000,\n    \"pleno\": 4000,\n    \"senior\": 6000,\n    \"master\": 8000\n  },\n  \"_id\": \"5ea6e2e8d8dbc99a3df894c7\",\n  \"nome\": \"Ciência da Computação 2\",\n  \"description\": \"O profissional formado em Ciência da Computação atua basicamente na elaboração de programas de informática\",\n  \"mainInfo\": \"Nesse pull request, 2o último pull request desse SCRUM causou a race condition no parse retroativo do DOM2.\",\n  \"psInfo\": \"Fala pro cliente que a 2disposição dos elementos HTML causou a race condition na compilação de templates li2terais.\",\n  \"occupationArea\": \"Dado o fluxo de dados atual, a compilação final do programa com2plexificou o merge de uma configuração W2ebpack eficiente nos builds.\",\n  \"createAt\": \"2020-04-27T13:49:28.037Z\",\n  \"__v\": 0\n}"
+      },
+      "created": 1587938366716,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_0e1242c5081b40b5855f67a0b29ea2e1",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1587535147951.5,
+      "method": "PUT",
+      "modified": 1588018724936,
+      "name": "Modificar Curso",
+      "parameters": [],
+      "parentId": "fld_13c6bcf7106649658bd691c9093fc750",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/cursos/5ea6e2e8d8dbc99a3df894c7",
+      "_type": "request"
+    },
+    {
+      "_id": "req_e6fd85829d7d43cab688363025970c55",
+      "authentication": {},
+      "body": {},
+      "created": 1587938328151,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1587535147926.5,
+      "method": "DELETE",
+      "modified": 1588018518986,
+      "name": "Deletar Curso",
+      "parameters": [],
+      "parentId": "fld_13c6bcf7106649658bd691c9093fc750",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/cursos/5ea6e2e8d8dbc99a3df894c7",
+      "_type": "request"
+    },
+    {
+      "_id": "req_b586a9c6debd4e2dac8a8e8cc605b471",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"username\": \"Manin\",\n\t\"email\": \"tilta@gmail.com\",\n\t\"password\": \"123422\"\n}"
+      },
+      "created": 1589007182596,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_c3a448f3741d4a28b4c4dbd60f437233",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1587535147876.5,
+      "method": "POST",
+      "modified": 1589084869280,
+      "name": "Criar Admin",
+      "parameters": [],
+      "parentId": "fld_13c6bcf7106649658bd691c9093fc750",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/signup",
+      "_type": "request"
+    },
+    {
+      "_id": "req_d4def0a0021d41ebadb9a74b2db79bc6",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"email\": \"manin@gmail.com\",\n\t\"password\": \"123433\"\n}"
+      },
+      "created": 1589007617917,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_c3a448f3741d4a28b4c4dbd60f437233",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1587441159402.75,
+      "method": "POST",
+      "modified": 1589091784974,
+      "name": "Login Admin",
+      "parameters": [],
+      "parentId": "fld_13c6bcf7106649658bd691c9093fc750",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/login",
+      "_type": "request"
+    },
+    {
+      "_id": "req_fb51c8107c844856918bbbf8bce04c86",
+      "authentication": {},
+      "body": {},
+      "created": 1589008447428,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "disabled": false,
+          "id": "pair_11ce44c4150c43889b2c5a7dc6286139",
+          "name": "token",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWViNzZkMTBlY2RiYTQ3Mzc0NzQxYWViIn0sImlhdCI6MTU4OTA4NTgzOCwiZXhwIjoxNTg5MDg5NDM4fQ.CQL5ToJxZLEcCDdXKGiS-NYZG08K9iyi02QpN9hVusc"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1587394165165.875,
+      "method": "GET",
+      "modified": 1589089584637,
+      "name": "Autenticar Admin",
+      "parameters": [],
+      "parentId": "fld_13c6bcf7106649658bd691c9093fc750",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/me",
+      "_type": "request"
+    },
+    {
+      "_id": "env_d7b7b05f62c2a3d58faf75f5abfd70c7ed42f50e",
+      "color": null,
+      "created": 1587535114807,
+      "data": {
+        "base_url": "http://localhost:3001/sistema"
+      },
+      "dataPropertyOrder": {
+        "&": [
+          "base_url"
+        ]
+      },
+      "isPrivate": false,
+      "metaSortKey": 1587535114807,
+      "modified": 1587535195184,
+      "name": "Base Environment",
+      "parentId": "wrk_203f35c3f4ad4572b987a0c646510e5a",
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_d7b7b05f62c2a3d58faf75f5abfd70c7ed42f50e",
+      "cookies": [],
+      "created": 1587535114824,
+      "modified": 1587535114824,
+      "name": "Default Jar",
+      "parentId": "wrk_203f35c3f4ad4572b987a0c646510e5a",
+      "_type": "cookie_jar"
+    }
+  ]
+}

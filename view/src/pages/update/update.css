@@ -1,0 +1,46 @@
+legend {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  /* margin-top: 15px;
+margin-left: 20px;
+margin-bottom: -10px;
+color: #333; */
+  margin-bottom: -20px;
+  margin-right: 20px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  color: #111;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea {
+  margin-top: 5px;
+}
+
+input {
+  margin-top: 5px;
+}
+
+label {
+  margin-top: 10px;
+}
+
+.media-salarial {
+  margin-left: 10px;
+}
+
+.media-salarial-card {
+  margin-left: 0px;
+}
+
+.input-salario {
+  margin-top: 0px;
+}

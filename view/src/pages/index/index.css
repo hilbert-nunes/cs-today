@@ -1,0 +1,40 @@
+.curso-item {
+  background: #eee;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.curso-item strong {
+  font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
+  font-size: 3em;
+}
+
+.curso-item p {
+  font-size: 16px;
+  color: dimgray;
+  margin-top: 5px;
+  line-height: 24px;
+}
+
+.curso-item a {
+  font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
+  height: 42px;
+  border-radius: 5px;
+  border: 2px solid #333;
+  background: none;
+  margin-top: 10px;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.curso-item a:hover {
+  background: #9450f4;
+}

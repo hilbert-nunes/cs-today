@@ -1,0 +1,28 @@
+legend {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-top: 15px;
+  margin-bottom: -10px;
+  transition: all 0.5s;
+  color: #333;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  color: #111;
+}
+
+#link {
+  color: #333;
+  transition: all 0.5s
+}
+
+#link:hover {
+  text-decoration: none;
+  color: #111;
+}

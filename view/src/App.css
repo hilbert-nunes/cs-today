@@ -1,0 +1,22 @@
+body,
+a,
+p,
+button,
+strong,
+article,
+div,
+h1,
+h2 {
+  font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3;
+}
+
+a:hover {
+  color: #ddd;
+  text-decoration: none;
+}
