@@ -45,3 +45,4 @@ To revoge Admin status clean localStorage.
 * Bootstrap - Style
 * MongoDB - Database
 * JWT - Authentication
+* Docker
